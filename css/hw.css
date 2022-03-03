@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color:  #19191B;
+}
+
+.main{
+    display: flex;
+    list-style: none;   
+    align-items: center; 
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 26px;
+}
+.content li{
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-size: 17.95px;
+}
+.main li{
+    margin-left: 35px;
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    transition: 0.3s;
+}
+
+.main li:hover{
+    color: #5454D4;
+    font-family: Nunito Sans;
+    transition: 0.3s;
+}
+
+
+.content li button{
+    background: transparent;
+    border-radius: 8px;    
+    color:white;
+    width:172px;
+    height: 54px;
+    border: 1px solid #FFFFFF;
+    transition: 0.3s;
+}
+
+.content li button:hover{
+    background: #FFFFFF;
+    border-radius: 8px;    
+    color:#19191B;
+    width:172px;
+    height: 54px;
+    border: 1px solid #FFFFFF;
+    transition: 0.3s;
+}
+
+.icdon {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28.5833px;
+  
+}

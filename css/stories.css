@@ -1,0 +1,59 @@
+.stories__box{
+    width: 266px;
+}
+
+.stories__title{
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 36px;
+
+    color: #000000;
+}
+
+.title{
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.link{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 17px;
+    color: #FB8F1D;
+}
+
+.stories__name{
+    width: 261px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 19px;
+    color: #000000;
+}
+
+.stories__descr{
+    width: 266px;
+    font-family: Inter;
+    font-size: 15px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+
+.stories__img{
+    background: url(../img/stories1.png) ;
+    height: 230px;
+    width: 98%;
+    border-radius: 8px;
+}
+
+.stories__img--second{
+    background: url(../img/stories2.png) center ;
+}
+
+.stories__img--third{
+    background: url(../img/stories3.png) ;
+}
+
+.stories__img--fourth{
+    background: url(../img/stories4.png) ;
+}

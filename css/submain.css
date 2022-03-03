@@ -1,0 +1,23 @@
+.submain__right{
+    max-width: 450px;
+}
+
+.submain__right p{
+    color: #7D7987;
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 33px;
+}
+
+.submain__right h2{
+    font-family: Playfair Display;
+}
+.submain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

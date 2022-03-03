@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    margin-left: 35px;
+    color: #B8BECD;
+    font-family: Inter;
+    transition: 0.3s;
+}
+.menu li:hover{
+    color: #202336;
+    transition: 0.3s;
+}
+
+.menu button{
+    background: white;
+    border-radius: 8px;
+    border: none;
+    color:#FB8F1D;
+    width:132px;
+    height: 44px;
+    border: 3px solid #FB8F1D;
+    transition: 0.3s;
+}
+
+.menu button:hover{
+    color: white;
+    background: #FB8F1D;
+    box-shadow: 0px 0px 35px #FB8F1D;
+    transition: 0.3s;
+}
+
